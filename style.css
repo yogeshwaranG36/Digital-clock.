@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wapper {
+    display: flex;
+    border: 3px solid white;
+    width: 390px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #9999ff 0%, #ff9999 100%);
+    border-radius: 9px;
+    opacity: 70%;
+}
+
+body {
+    background-image: url(./img/img1.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;
+    
+}
+#fn
+{
+    font-size:30px;
+}
+#date
+{   
+    position:relative;
+    right: 265px;
+    bottom: 70px;
+    font-size:x-large;
+}
